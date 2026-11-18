@@ -169,7 +169,7 @@ const App: React.FC = () => {
   return (
     <div className="app-container">
       <h1>💳 법인카드 부정사용 모니터링</h1>
-      <p>엑셀 파일을 업로드하여 자택-가맹점 간 거리를 분석하세요. (기준: 2km)</p>
+      <p>엑셀 파일을 업로드하여 자택-가맹점 간 거리를 분석하세요.</p>
 
       <div className="file-upload-area">
         <input type="file" accept=".xlsx, .xls" onChange={handleFileChange} disabled={isBusy} />
